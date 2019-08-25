@@ -1,0 +1,100 @@
+body {
+    background-image: url('../images/Kobe.jpg');
+    width: 100%;
+    margin: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: static;
+}   
+      
+.col-md-4{
+    border-style: solid;
+    border-color: purple;
+    background-color: yellow;
+    color: purple;
+    margin-left: 500px;
+    padding-bottom: 185px;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+#test{
+    color: purple(154, 226, 38);
+}
+
+@media screen and (max-width: 980px) { 
+
+    body {
+        background-image: url('../images/Kobe.jpg');
+        width: 100%;
+        margin: auto;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        position: static;
+    }   
+          
+    .col-md-4{
+        border-style: solid;
+        border-color: yellow;
+        background-color: purple;
+        color: gold;
+        margin-left: 620px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        margin-top: 40px;
+    }
+    
+    #test{
+        color: rgb(154, 226, 38);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        background-image: url('../images/Kobe.jpg');
+        width: 100%;
+        margin: auto;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        position: static;
+    }   
+          
+    .col-md-4{
+        border-style: solid;
+        border-color: gold;
+        background-color: white;
+        color: purple;
+        margin-left: 520px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        margin-top: 40px;
+    }
+    
+    #test{
+        color: rgb(154, 226, 38);
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    body {
+        background-image: url('../images/DC.jpg');
+        width: 100%;
+        margin: auto;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        position: static;
+    }   
+          
+    .col-md-4{
+        border-style: solid;
+        border-color: black;
+        background-color: gold;
+        color: purple;
+        margin-left: 150px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        margin-top: 40px;
+    }
+    
+    #test{
+        color: rgb(154, 226, 38);
+    }
+}
