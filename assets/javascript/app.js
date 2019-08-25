@@ -14,7 +14,18 @@ function startClock(duration, display) {
             console.log(timer);
             timer = duration;
             console.log(duration);
-            alert("")
+            alert("...TIME'S UP!!!...");
+
+        } else {
+            seconds = parseInt(timer / 60, 10)
+            minutes = parseInt(timer % 60, 10);
+
+            seconds = seconds < 10 ? "0" + ":" + seconds : seconds;
+            minutes = minutes < 10 ? "0" + ":" + minutes : minutes;
+
+            
+
+
         }
     })
 }
